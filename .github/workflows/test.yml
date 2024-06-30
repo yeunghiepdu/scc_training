@@ -16,8 +16,3 @@ jobs:
     
     - name: Echo a string
       run: echo "Hello, GitHub Actions!"
-      
-    - name: Echo an environment variable  
-      env:
-        MY_ENV_VAR: ${{ secrets.MY_SECRET }}
-      run: echo "The value of MY_ENV_VAR is: $MY_ENV_VAR"
